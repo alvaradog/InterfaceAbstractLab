@@ -2,6 +2,22 @@
 package lab1;
 
 public class StartUp {
+    
+    /**
+     * Good :
+     * By including the superclass of Course, you are able to reuse code
+     * that all classes use. Course name, number, credits. 
+     * 
+     * Bad:
+     * I am not sure if the single responsibility principle used in the
+     * instance where there is a check for prerequisites. I do not think
+     * that its the task for the course, and that is a feature that many
+     * more courses may have, but not all
+     * 
+     * @param args
+     */
+    
+    
     public static void main(String[] args) {
         
         Course programming101 = new IntroToProgrammingCourse("Intro to "
