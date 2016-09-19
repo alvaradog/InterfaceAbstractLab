@@ -33,6 +33,12 @@ public class StartUp {
         java101.setCredits(4);
         java102.setCredits(4);
         
-        System.out.println("These are programming courses available:");
+        System.out.println("These are programming courses available:\n" + 
+                programming101.getCourseName()+": " 
+                +programming101.getCredits() + " Credits\n"
+                + java101.getCourseName() + ": "
+        + java101.getCredits() + " Credits\n" 
+                + java102.getCourseName() + ": "
+        + java102.getCredits() + " Credits\n");
     }
 }
